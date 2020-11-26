@@ -6,6 +6,6 @@ h1{
     color: #34495e;
 }
 
-#title{
-    color: red;
+.clicked{
+    color: #7f8c8d
 }
