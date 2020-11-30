@@ -1,11 +1,24 @@
-body{
+body {
     background-color: #ecf0f1;
 }
 
-h1{
+.btn {
+    cursor: pointer;
+}
+
+body {
     color: #34495e;
 }
 
-.clicked{
-    color: #7f8c8d
+.clicked {
+    color: #8f8c8d;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
 }
