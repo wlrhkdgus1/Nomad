@@ -1,0 +1,10 @@
+setInterval(실행할함수fn , 실행될초1000); =
+function sayhi {console.log("sayhi);}
+setlnterval(sayhi,3000) = 3초마다 sayhi
+
+new date()를 만들고나면.
+date.getDay() = 1 월요일 2 화요일 3 수요일 이런식으로 숫자로 정리됨.
+date.getDate() = 몇일  예) 30 = 30일 27 = 27일
+date.getHours() = 시간   예) 13 = 오후1시 15 오후3시
+date.getMinutes() = 분  예) 43 = 43분
+date.getSeconds() = 초 예)17 = 17초  hours Minutes Seconds = 13:43:17 1시43분17초
