@@ -20,7 +20,7 @@ function handleGeoError(){
 }
 
 function askForCoords(){
-    navigator.geolocation.getCurrentPosition(handleGeoSucces, handleGeoError)
+    navigator.geolocation.getCurrentPosition(handleGeoSucces, handleGeoError) // navigetor사용법 https://developer.mozilla.org/ko/docs/Web/API/Window/navigator
 }
 
 function loadCoords(){
