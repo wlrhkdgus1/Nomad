@@ -1,5 +1,12 @@
 body {
     background-color: #2c3e50;
+    text-align: center;
+    margin-top: 15%;
+}
+div{
+    font-size: 200%;
+    margin-top: -5%;
+    color: palevioletred;
 }
 
 .btn {
