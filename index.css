@@ -6,7 +6,16 @@ body {
 div{
     font-size: 200%;
     margin-top: -5%;
-    color: palevioletred;
+    color:white;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
 }
 
 .btn {
@@ -24,10 +33,23 @@ body {
 .form,
 .greetings {
     display: none;
+    margin-top: -5%;
+    font-size: 300%;
 }
 
 .showing {
     display: block;
+    margin-bottom: 10px;
+    color: skyblue;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
 }
 
 @keyframes fadeIn {
@@ -48,3 +70,9 @@ body {
     z-index: -1;
     animation: fadeIn 0.5s linear;
 }
+
+.todo{
+    width: 300px;
+    height: 25px;
+}
+
